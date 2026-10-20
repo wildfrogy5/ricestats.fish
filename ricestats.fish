@@ -20,6 +20,8 @@ else if test $XDG_CURRENT_DESKTOP = "HYPRLAND"
 cat ascii/hyprland.txt
 else if test $XDG_CURRENT_DESKTOP = "GNOME"
 cat ascii/gnome.txt
+else if test $XDG_CURRENT_DESKTOP = "CINNAMON"
+cat ascii/cinnamon.txt
 else if test $XDG_CURRENT_DESKTOP = "LXQT"
 cat ascii/lxqt.txt
 else if test $XDG_CURRENT_DESKTOP = "DDE"
