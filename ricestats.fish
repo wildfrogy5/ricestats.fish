@@ -30,6 +30,8 @@ else if test $XDG_CURRENT_DESKTOP = "DDE"
 cat ascii/dde.txt
 else if test $XDG_CURRENT_DESKTOP = "BUDGIE"
 cat ascii/budgie.txt
+else if test $XDG_CURRENT_DESKTOP = "COSMIC"
+cat ascii/cosmic.txt
 else if set -ql _flag_hideerrors
 echo $XDG_CURRENT_DESKTOP
 else
