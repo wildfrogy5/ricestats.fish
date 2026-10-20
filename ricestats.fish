@@ -32,7 +32,8 @@ else if test $XDG_CURRENT_DESKTOP = "BUDGIE"
 cat ascii/budgie.txt
 else if set -ql _flag_hideerrors
 echo $XDG_CURRENT_DESKTOP
-else echo 'sorry! we dont have ascii art for that deskop environment yet! you can run --hideerrors to disable this!'&& echo $XDG_CURRENT_DESKTOP
+else
+echo 'sorry! we dont have ascii art for that deskop environment yet! you can run --hideerrors to disable this!'&& echo $XDG_CURRENT_DESKTOP
 end
 echo '
 '
